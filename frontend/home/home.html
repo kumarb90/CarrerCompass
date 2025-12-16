@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Career Compass – Home</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  color: #222;
+}
+
+.navbar {
+  background: #2563eb;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 12px 24px;
+  justify-content: space-between;
+}
+
+.nav-left {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.nav-left img {
+  height: 32px;
+  width: 32px;
+}
+
+.hero {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  color: #2563eb;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+}
+
+.hero-buttons {
+  margin-top: 30px;
+}
+
+.hero-buttons a {
+  background: #2563eb;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.hero-buttons a.secondary {
+  background: #4f46e5;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 50px 20px;
+  flex-wrap: wrap;
+}
+
+.feature-box {
+  background: white;
+  width: 260px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.feature-box h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  padding: 15px;
+  background: #e5e7eb;
+  margin-top: 50px;
+  font-size: 14px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../assets/icon.webp" alt="Career Compass Logo">
+    Career Compass
+  </div>
+  <div class="nav-links">
+    <a href="./home.html">Home</a>
+    <a href="../jobMatch/jobmatch.html">Job Match</a>
+    <a href="../chatbot/chatbot.html">Chatbot</a>
+    <a href="../jobSuggestion/jobSuggestion.html">Job Suggestions</a>
+  </div>
+</div>
+
+<div class="hero">
+  <h1>Your AI Career Assistant</h1>
+  <p>
+    Career Compass helps students analyze job descriptions, evaluate resume fit,
+    identify skill gaps, and get AI-powered career guidance.
+  </p>
+
+  <div class="hero-buttons">
+    <a href="../jobMatch/jobmatch.html" class="secondary">Analyze Job Match</a>
+    <a href="../jobSuggestion/jobSuggestion.html" class="secondary">Best Suggested Job For You</a>
+    <a href="../chatbot/chatbot.html" class="secondary">Chat with AI</a>
+  </div>
+</div>
+
+<div class="features">
+  <div class="feature-box">
+    <h3>Job Match Analysis</h3>
+    <p>Get an intelligent score showing how well your resume matches a job description.</p>
+  </div>
+
+  <div class="feature-box">
+    <h3>Skill Gap Detection</h3>
+    <p>Identify missing skills and understand what to learn next.</p>
+  </div>
+
+  <div class="feature-box">
+    <h3>AI Career Chatbot</h3>
+    <p>Ask questions about roles, skills, and career paths in natural language.</p>
+  </div>
+
+  <div class="feature-box">
+    <h3>Resume Improvement Suggestions</h3>
+    <p>Receive AI-powered tips to improve your resume and increase your chances of selection.</p>
+  </div>
+
+  <div class="feature-box">
+    <h3>Personalized Learning Paths</h3>
+    <p>Get recommended courses and resources based on your career goals and skill gaps.</p>
+  </div>
+</div>
+
+<div class="footer">
+  © 2025 Career Compass | AI-Powered Career Assistant
+</div>
+
+</body>
+</html>

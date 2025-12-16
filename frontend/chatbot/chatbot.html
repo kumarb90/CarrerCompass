@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Career Compass – Chatbot</title>
+  <link rel="stylesheet" href="chatbot.css" />
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../assets/icon.webp" alt="Career Compass Logo" class="nav-logo" />
+    <span>Career Compass</span>
+  </div>
+
+  <div class="nav-links">
+    <a href="../home/home.html">Home</a>
+    <a href="../jobMatch/jobmatch.html">Job Match</a>
+    <a href="./chatbot.html" class="active">Chatbot</a>
+    <a href="../jobSuggestion/jobSuggestion.html">Job Suggestions</a>
+  </div>
+</div>
+
+<div class="chat-page">
+  <div class="chat-container">
+
+    <div class="chat-header">Career Compass Chatbot</div>
+
+    <div class="chat-messages" id="chatMessages">
+      <div class="message bot">
+        Hi 👋 I’m your Career Assistant.  
+        Ask me about skills, roles, or career readiness.
+      </div>
+    </div>
+
+    <div class="chat-input">
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type your question..."
+        onkeydown="if(event.key==='Enter') sendMessage()"
+      />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
+</html>

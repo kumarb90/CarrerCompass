@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Career Compass – Job Suggestions</title>
+  <link rel="stylesheet" href="jobSuggestion.css">
+</head>
+
+<body>
+
+<div class="navbar">
+  <div class="nav-left">
+    <img src="../assets/icon.webp" alt="Career Compass Logo">
+    <span>Career Compass</span>
+  </div>
+  <div class="nav-links">
+    <a href="../home/home.html">Home</a>
+    <a href="../jobMatch/jobmatch.html">Job Match</a>
+    <a href="../chatbot/chatbot.html">Chatbot</a>
+    <a href="./jobSuggestion.html">Job Suggestions</a>
+  </div>
+</div>
+
+<div class="page-layout">
+
+  <div class="left-panel">
+    <h2>Paste Your Resume</h2>
+
+    <textarea
+      id="resumeText"
+      placeholder="Paste your resume content here..."
+    ></textarea>
+
+    <button id="suggestBtn">Suggest Jobs</button>
+  </div>
+
+  <div class="right-panel">
+    <h2>Suggested Jobs</h2>
+
+    <div class="jobs" id="jobResults">
+      <p class="placeholder">
+        Your job suggestions will appear here 🚀
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<script src="jobSuggestion.js"></script>
+</body>
+</html>
